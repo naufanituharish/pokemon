@@ -1,0 +1,23 @@
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background: white;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.content-wrapper {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 2rem auto;
+    margin-top: 80px; 
+}

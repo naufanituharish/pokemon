@@ -1,0 +1,25 @@
+.card-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.card-item.card-item-center{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.card-item.card-item-row{
+    flex-direction: row;
+}
+
+.card-item.card-item-vertical-center{
+    align-items: center;
+}
+
+.card-item.card-item-full{
+    width: 100%
+}

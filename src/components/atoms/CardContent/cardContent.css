@@ -1,0 +1,12 @@
+.card-content{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: .2em;
+}
+
+.card-content.card-content-row{
+    flex-direction: row;
+}
